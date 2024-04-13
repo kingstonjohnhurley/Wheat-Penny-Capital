@@ -1,6 +1,6 @@
 export default function Introduction() {
     return (
-        <div>
+
             <div className="about" >
                 <h1>Portfolio</h1>
                 <div className="col-sm-6">
@@ -9,6 +9,6 @@ export default function Introduction() {
                     </div>
                 </div>
             </div>
-        </div>
-    )
+    )       
+   
 }

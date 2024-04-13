@@ -2,16 +2,16 @@ export default function Strategy() {
     return (
         <div>
             <div className="about">
-                <div className="container">
-                    <div className="row">
-                        <div col-sm-6>
-                            <h1>
-                                Wheat Penny Capital's Strategy
-                            </h1>
-                            <p>Wheat Penny Capital invests in a concentrated portfolio of exceptional companies whose long-term value is underappreciated by the market. Our portfolio is comprised of both dividend-paying bellwether businesses and overlooked contrarian companies.</p>
-                        </div>
-                    </div>
+
+                <div className="row col-sm-8 text-center">
+
+                    <h1>
+                        Wheat Penny Capital's Strategy
+                    </h1>
+                    <p>Wheat Penny Capital invests in a concentrated portfolio of exceptional companies whose long-term value is underappreciated by the market. Our portfolio is comprised of both dividend-paying bellwether businesses and overlooked contrarian companies.</p>
                 </div>
+
+
             </div>
             <div className="bg">
                 <div className="container">
@@ -127,17 +127,31 @@ export default function Strategy() {
                             </p>
                         </div>
 
+
                     </div>
                 </div>
-                <div className="contact">
-                    <h5>
-                        Join Wheat Penny Capital Today!  Get in touch with Austin Smith and start your investing journey with us.
-                    </h5>
-                    <a href="mailto:austinwebbsmith100@gmail.com">
-                        Contact Us
-                    </a>
+                <div className="container">
+                    <div className="row">
+
+                        <div className="contact">
+                            <h2>Contact Us</h2>
+                            <div className="cuf">
+                                <div className="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                    </input>
+                                </div>
+                                <div className="mb-3">
+                                    <label for="exampleFormControlTextarea1" className="form-label">Message Us</label>
+                                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <button type="button" className="btn btn-primary- btn-lg">Submit</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
     )
 }
