@@ -2,22 +2,19 @@ export default function Strategy() {
     return (
         <div>
             <div className="about">
-
-                <div className="row col-sm-8 text-center">
-
+                <div className="col-sm-8 text-center">
                     <h1>
                         Wheat Penny Capital's Strategy
                     </h1>
                     <p>Wheat Penny Capital invests in a concentrated portfolio of exceptional companies whose long-term value is underappreciated by the market. Our portfolio is comprised of both dividend-paying bellwether businesses and overlooked contrarian companies.</p>
                 </div>
-
-
             </div>
             <div className="bg">
                 <div className="container">
                     <div className="row">
                         <div className="two">
                             <p>Wheat Penny Capital has, as proven in the last years, a good, effective strategy that does not fail to beat the market.  First, I believe in the benefits of a concentrated portfolio, with a maximum of 10 to 12 stocks.  Rather than dabbling in 25 or 30 stocks, I aim to make knowledgeable and thoughtful investments in a small number of companies that I know well.  Secondly,  Wheat Penny Capital takes a more prudent approach and holds stocks for 5-10 years.  Unless shares deeply decline with little hope of returning, Wheat Penny Capital invests consistently in companies that are likely to do well.  Wheat Penny Capital also is not worried about one-time negative hits, as long as they happen to be good stocks that I believe they will do well.  As said before, we look towards the future, and we believe that if we choose right these businesses will bounce back before long.  Wheat Penny Capital also prefers to be familiar with the stocks we pick.  We will most likely not be investing in crypto, but expect to see WPC investing in Apple, Blackstone, Southwest, and household names.  Finally, WPC prefers to invest in stocks that pay dividends, as this shows that the companies have a steady cash flow that gives them the option to pay cash to their investors.  This is Wheat Penny Capital's strategy for stock picking, and it has proven to be efficient and effective.</p>
+
                         </div>
 
                     </div>
@@ -59,13 +56,13 @@ export default function Strategy() {
                     </div>
                 </div>
                 <div className="container">
-                    <div className="row">
+                    <div className="row justify-content-center">
                         <div className="nac">
                             <h5>
                                 Blackstone Inc.
                             </h5>
                             <p>
-                                Blackstone Inc. is an asset management firm, the largest in the world. Its capital under management increased from $975 Billion at the end of 2023, to over $1 Trillion at the end of 2023. Some of its main sectors are Real Estate, Private Equity, and Credit and Insurance.
+                                Blackstone Inc. is an asset management firm, the largest in the world. Its capital under management increased from $975 Billion at the start of 2023, to over $1 Trillion at the end of 2023. Some of its main sectors are Real Estate, Private Equity, and Credit and Insurance.
                             </p>
                         </div>
                         <div className="nac">
@@ -88,12 +85,11 @@ export default function Strategy() {
                         </div>
                         <div className="nac">
                             <h5>
-                                Patria investments
+                                Patria Investments
                             </h5>
                             <p>
                                 Patria (PAX), is a private markets investment firm that specializes in Latin America. It is
-                                the largest infrastructure investor in Latin America, as well as one of the largest in Real Estate
-                                and Private equity in that area.
+                                the largest infrastructure investor in Latin America, as well as one of the largest in Real Estate and Private equity in that area.
                             </p>
                         </div>
                         <div className="nac">
@@ -137,8 +133,8 @@ export default function Strategy() {
                             <h2>Contact Us</h2>
                             <div className="cuf">
                                 <div className="mb-3">
-                                    <label for="exampleFormControlInput1" class="form-label">Email Address</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                    <label for="exampleFormControlInput1" className="form-label">Email Address</label>
+                                    <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                                     </input>
                                 </div>
                                 <div className="mb-3">

@@ -5,7 +5,18 @@ export default function Navigation() {
                 <a className="navbar-brand" href="#">
                     <img src="logo.jpg" alt="Bootstrap" width="50" />
                 </a>
-                <div>
+                <button
+                className="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#nav-links"
+                aria-expanded="false"
+                aria-controls="#nav-links"
+                >
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse justify-content-end"
+                id="nav-links">
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <a className="nav-link" href="/">Portfolio</a>

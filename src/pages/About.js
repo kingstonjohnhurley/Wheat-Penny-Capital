@@ -48,9 +48,9 @@ export default function About() {
                 <div className="container">
                     <div className="two">
                         <div className="col-sm-8">
-                        <div behavior="slide">
-                            <p> <b>Wheat Penny Capital</b> was established by Austin Smith on January 3, 2023.   Ever since then, Austin has been the sole member of the company. He has a lot of experience in investing and stock picking, which has helped him consistently outperform the market. Austin's dedication and persistent effort have driven Wheat Penny Capital's impressive success so far. His devotion and superb strategy have shown to be very effective and have driven up profits.</p>
-                        </div>
+                            <div behavior="slide">
+                                <p> <b>Wheat Penny Capital</b> was established by Austin Smith on January 3, 2023.   Ever since then, Austin has been the sole member of the company. He has a lot of experience in investing and stock picking, which has helped him consistently outperform the market. Austin's dedication and persistent effort have driven Wheat Penny Capital's impressive success so far. His devotion and superb strategy have shown to be very effective and have driven up profits.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -81,8 +81,8 @@ export default function About() {
                             <h2>Contact Us</h2>
                             <div className="cuf">
                                 <div className="mb-3">
-                                    <label for="exampleFormControlInput1" class="form-label">Email Address</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                    <label for="exampleFormControlInput1" className="form-label">Email Address</label>
+                                    <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                                     </input>
                                 </div>
                                 <div className="mb-3">
@@ -92,8 +92,8 @@ export default function About() {
                             </div>
                             <button type="button" className="btn btn-primary- btn-lg">Submit</button>
                         </div>
-                        </div>
                     </div>
+                </div>
             </div >
         </div >
 

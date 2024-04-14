@@ -21,8 +21,8 @@ export default function Home() {
                             <h2>Contact Us</h2>
                             <div className="cuf">
                                 <div className="mb-3">
-                                    <label for="exampleFormControlInput1" class="form-label">Email Address</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                    <label for="exampleFormControlInput1" className="form-label">Email Address</label>
+                                    <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                                     </input>
                                 </div>
                                 <div className="mb-3">
