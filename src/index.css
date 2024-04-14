@@ -92,7 +92,7 @@ code {
 }
 
 .two {
-  height: 450px;
+  /* height: 450px; */
   background-color: grey;
   display: flex;
   margin-bottom: 4%;
@@ -160,26 +160,12 @@ code {
 
 .contact {
   height: 400px;
-  width: 1300px;
   background-color: #C4A484;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   opacity: 0.95;
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  flex-direction: column;
   margin-top: 3.5%;
   color: black;
   border-radius: 25px;
   margin-bottom: 3%;
-}
-
-.cuf {
-  width: 800px;
 }
 
 .portfolio-card {
