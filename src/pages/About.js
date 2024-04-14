@@ -47,8 +47,10 @@ export default function About() {
                 </div>
                 <div className="container">
                     <div className="two">
+                        <div className="col-sm-8">
                         <div behavior="slide">
-                            <p> <b>Wheat Penny Capital</b> was established by Austin Smith on January __, 2023.   Ever since then, Austin has been the sole member of the company. He has a lot of experience in investing and stock picking, which has helped him consistently outperform the market. Austin's dedication and persistent effort have driven Wheat Penny Capital's impressive success so far. His devotion and superb strategy have shown to be very effective and have driven up profits.</p>
+                            <p> <b>Wheat Penny Capital</b> was established by Austin Smith on January 3, 2023.   Ever since then, Austin has been the sole member of the company. He has a lot of experience in investing and stock picking, which has helped him consistently outperform the market. Austin's dedication and persistent effort have driven Wheat Penny Capital's impressive success so far. His devotion and superb strategy have shown to be very effective and have driven up profits.</p>
+                        </div>
                         </div>
                     </div>
                 </div>
