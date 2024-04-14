@@ -12,7 +12,7 @@ export default function Contact() {
               type="email"
               className="form-control"
               id="exampleFormControlInput1"
-              placeholder="name@example.com"
+              name="Email"
             ></input>
           </div>
           <div className="mb-3">
@@ -23,6 +23,7 @@ export default function Contact() {
               className="form-control"
               id="exampleFormControlTextarea1"
               rows="3"
+              name="Message"
             ></textarea>
           </div>
           <button type="button" className="btn btn-primary- btn-lg">
